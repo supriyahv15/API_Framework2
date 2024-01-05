@@ -63,8 +63,8 @@ public class BaseClass {
 		
 	}
 	
-	public static Response deleteRequest(String requesturl,String payload,String bearer_token) {
-		RequestSpecification requestspecification=RestAssured.given().body(payload);
+	public static Response deleteRequest(String requesturl,String bearer_token) {
+		RequestSpecification requestspecification=RestAssured.given();
 		requestspecification.contentType(ContentType.JSON);
 		requestspecification.header("Authorization","Bearer "+bearer_token);
 		Response response=requestspecification.put(requesturl);

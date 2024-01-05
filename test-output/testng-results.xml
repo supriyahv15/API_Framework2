@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-29T15:29:25 IST" name="Default suite" finished-at="2023-12-29T15:29:28 IST" duration-ms="2128">
+  <suite started-at="2023-12-30T17:43:17 IST" name="Default suite" finished-at="2023-12-30T17:43:22 IST" duration-ms="5498">
     <groups>
     </groups>
-    <test started-at="2023-12-29T15:29:25 IST" name="Default test" finished-at="2023-12-29T15:29:28 IST" duration-ms="2128">
-      <class name="TestCases.EnableVulnerability">
-        <test-method signature="enableVulnerability()[pri:0, instance:TestCases.EnableVulnerability@20ccf40b]" started-at="2023-12-29T15:29:25 IST" name="enableVulnerability" finished-at="2023-12-29T15:29:28 IST" duration-ms="2097" status="PASS">
+    <test started-at="2023-12-30T17:43:17 IST" name="Default test" finished-at="2023-12-30T17:43:22 IST" duration-ms="5498">
+      <class name="TestCases.CreateRepositoryForAuthenticatedUser">
+        <test-method signature="createRepo()[pri:0, instance:TestCases.CreateRepositoryForAuthenticatedUser@20ccf40b]" started-at="2023-12-30T17:43:17 IST" name="createRepo" finished-at="2023-12-30T17:43:22 IST" duration-ms="5442" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enableVulnerability -->
-      </class> <!-- TestCases.EnableVulnerability -->
+        </test-method> <!-- createRepo -->
+      </class> <!-- TestCases.CreateRepositoryForAuthenticatedUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

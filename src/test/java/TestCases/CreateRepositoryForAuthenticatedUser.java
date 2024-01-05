@@ -24,6 +24,7 @@ public class CreateRepositoryForAuthenticatedUser {
 		String payload = payloadconvertor.generatepayload("CreateRepo.json");
 		response=BaseClass.postRequest(baseURL, payload, token);
 		String response_body=response.getBody().asString();
+		System.out.println(response_body);
 		Assert.assertEquals(commonresponse.getResponseValue(payload, "name"), commonresponse.getResponseValue(response_body,"name"));
 		Assert.assertEquals(commonresponse.getStatusCode(response), 201);	
 		

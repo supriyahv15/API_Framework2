@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.CreateFork">
+      <class name="TestCases.TransferRepository">
         <methods>
-          <include name="createFork"/>
+          <include name="transferRepo"/>
         </methods>
-      </class> <!-- TestCases.CreateFork -->
+      </class> <!-- TestCases.TransferRepository -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
